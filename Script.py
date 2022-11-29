@@ -12,21 +12,21 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://beingtek.com/ref/GreyMatter658')
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 Im Search Bot I can share Movies and Series 😁.</b>
+    START_TXT = environ.get("START_TXT", '''<b>𝙃𝙚𝙮 👋🏻 {} 𝙄 𝘼𝙢 𝙏𝙚𝙨𝙨𝙖𝙐𝙍𝙇 𝘽𝙤𝙩!\n✰ 𝙄 𝘼𝙢 𝘼 𝙊𝙥𝙚𝙣 𝙎𝙤𝙪𝙧𝙘𝙚 𝘾𝙤𝙙𝙚 𝘽𝙤𝙩 !\n✰ 𝙅𝙪𝙨𝙩 𝘼𝙙𝙙 𝙈𝙚 𝙄𝙣 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 𝘼𝙨 𝘼𝙙𝙢𝙞𝙣 𝘼𝙣𝙙 𝙎𝙚𝙚 𝙏𝙝𝙚 𝙈𝙖𝙜𝙞𝙘 ☆</b>
 
-<i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
+<i>✰ 𝙄 𝘼𝙢 𝘼𝙪𝙩𝙤𝙛𝙞𝙡𝙩𝙚𝙧 𝘽𝙤𝙩 𝙁𝙤𝙧 𝙔𝙤𝙪𝙧 𝙃𝙚𝙡𝙥 \n✰ 𝙂𝙚𝙩 𝙀𝙫𝙚𝙧𝙮 𝙈𝙤𝙫𝙞𝙚 𝘽𝙮 𝙅𝙪𝙨𝙩 𝘼𝙙𝙙𝙞𝙣𝙜 𝙈𝙚 𝙏𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 \n✰ 𝙄𝙣𝙡𝙞𝙣𝙚 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝘼𝙙𝙙𝙚𝙙</i>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/rb1bots><b>TessaURL</b></a>\n
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/sarthakkale16><b>Creator</b></a>\n
-📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
-📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/GreyMatter_Bots><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
-🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
+    ABOUT_TXT = """<b><i>My Updates : <a href=https://t.me/rb1bots><b>TessaURL</b></a>\n
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/know_sarthak16>✰ sᴀʀᴛʜᴀᴋ ✰</a>\n
+☆ L𝙸B𝚁𝙰𝚁Y : 𝘔𝘈𝘕𝘎𝘖 𝘋𝘉\n
+☆ L𝙰N𝙶𝚄A𝙶E : 𝘗𝘠𝘛𝘏𝘖𝘕 3.4+\n
+☆ 𝗦𝘁𝗮𝘁𝘂𝘀 : <a href=https://t.me/rb1bots>✶ 𝗕𝗼𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 ✶</a>\n
+✰ Ｓｏｕｒｃｅ: <a https://telegram.dog/sarthakkale16>⋆ 𝙰𝚜𝚔 𝙷𝚎𝚛𝚎 ⋆</a>\n
+☆ D𝙰𝚃AB𝙰S𝙴 : 𝘗𝘳𝘪𝘷𝘢𝘵𝘦 𝘕𝘰𝘸"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
-» I will Create One Bot For You<b>
-» Contact Me @sarthakkale16<b>"""
+☛  <a href=https://github.com/sarthakkale16>★ 𝗙𝗼𝗿𝗸 𝗔𝗻𝘆 𝗥𝗲𝗽𝗼 𝗔𝗻𝗱 𝗚𝗶𝘃𝗲 𝗦𝘁𝗮𝗿 ★</a>\n★ 𝙄 𝘼𝙢 𝙉𝙤𝙩 𝙏𝙝𝙚 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 𝙊𝙛 𝙏𝙝𝙞𝙨 𝙎𝙤𝙪𝙧𝙘𝙚 𝙄 𝙃𝙖𝙫𝙚 𝙅𝙪𝙨𝙩 𝙈𝙤𝙙𝙞𝙛𝙞𝙚𝙙 𝙄𝙩 😌 !\n★ 𝙏𝙝𝙞𝙨 𝙄𝙨 𝙈𝙤𝙙𝙞𝙛𝙞𝙚𝙙 𝙑𝙚𝙧𝙨𝙞𝙤𝙣 𝙊𝙛 𝘼𝙪𝙩𝙤 𝙁𝙞𝙡𝙩𝙚𝙧 𝘽𝙤𝙩 𝙒𝙞𝙩𝙝 𝙐𝙍𝙇 𝙎𝙃𝙊𝙍𝙏𝙉𝙀𝙍!\n➣ 𝗜𝗳 𝗬𝗼𝘂 𝗪𝗮𝗻𝘁 𝗕𝗼𝘁 𝗟𝗶𝗸𝗲 𝗧𝗵𝗶𝘀 𝗧𝗵𝗲𝗻
+➣ 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗠𝗲 ➺ @helpsarthak_bot<b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
@@ -107,14 +107,16 @@ This module only works for my admins
 ★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
-    LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
+    LOG_TEXT_G = """╭──── #𝗚𝗿𝗼𝘂𝗽 𝗕𝘆 𝗧𝗲𝘀𝘀𝗮𝗨𝗥𝗟
     
-<b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
-<b>᚛› 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 ⪼ <code>{}</code></b>
-<b>᚛› 𝐀𝐝𝐝𝐞𝐝 𝐁𝐲 ⪼ {}</b>
-"""
-    LOG_TEXT_P = """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫  
+<b>᚛› 𝗚𝗿𝗼𝘂𝗽 ☞ {}(<code>{}</code>)</b>
+<b>᚛› 𝗧𝗼𝘁𝗮𝗹 𝗠𝗲𝗺𝗯𝗲𝗿𝘀 ☞ <code>{}</code></b>
+
+<b>᚛› 𝗔𝗱𝗱𝗲𝗱 𝗕𝘆 ☞ {}</b>
+<b> ★ 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 @rb1bots
+╰────"""
+    LOG_TEXT_P = """#𝗡𝗲𝘄𝗨𝘀𝗲𝗿 𝗕𝘆 𝗧𝗲𝘀𝘀𝗮𝗨𝗥𝗟
     
-<b>᚛› 𝐈𝐃 - <code>{}</code></b>
-<b>᚛› 𝐍𝐚𝐦𝐞 - {}</b>
+<b>᚛› 𝗜𝗗 ☞ - <code>{}</code></b>
+<b>᚛› 𝗡𝗮𝗺𝗲 ☞ - {}</b>
 """
