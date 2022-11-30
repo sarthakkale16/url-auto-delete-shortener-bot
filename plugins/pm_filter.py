@@ -450,8 +450,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙿𝙿𝙾𝚁𝚃')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/sarthakkale16')
-            InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='autofilter')
+            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/sarthakkale16'),
+            InlineKeyboardButton('ᴀᴜᴛᴏ ғɪʟᴛᴇʀs', callback_data='autofilter')
         ], [
             InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='source'),
             InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra')
