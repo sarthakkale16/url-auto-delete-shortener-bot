@@ -45,7 +45,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'greymatters_bots_discussion')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "ɴᴀᴍᴇ: <code>{file_name}</code> \nProvided By Requestbox1 Networks\nCheck @rb1official For More \nᴊᴏɪɴ ɴᴏᴡ: [Movie Updates](https://t.me/requestbox1official)</b>")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "@rb1official {file_name} \nsɪᴢᴇ : {file_size} \n\n┏➪[ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇs](https://t.me/requestbox1official)</b> \n┠[ᴊᴏɪɴ ᴘʀᴇᴍɪᴜᴍ](https://t.me/rb1official)</b> \n┠〉〉〉[ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/know_sarthak16)</b> \n[ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs](https://t.me/rb1bots)</b> \n[ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ](https://t.me/requestbox1)</b>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "ɴᴀᴍᴇ: <code>{file_name}</code> \n\nᴊᴏɪɴ ɴᴏᴡ: [Movie Updates](https://t.me/rb1official)</b>")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🧿 ᴛɪᴛᴛʟᴇ :  {title} \n🌟 ʀᴀᴛɪɴɢ : {rating} \n🎭 ɢᴇɴʀᴇ : {genres} \n📆 ʀᴇʟᴇᴀsᴇ : {year} \n⏰ ᴅᴜʀᴀᴛɪᴏɴ : {runtime} \n🎙️ʟᴀɴɢᴜᴀɢᴇ : {languages} \n🔖 sʜᴏʀᴛ : {plot} \n Developer : @rb1Bots")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
@@ -81,11 +81,11 @@ if SELF_DELETE == "True":
     SELF_DELETE = True
 
     # Download Tutorial Button #
-DOWNLOAD_TEXT_NAME = "🍭 HOW TO DOWNLOAD 🍭"
+DOWNLOAD_TEXT_NAME = "✘ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ✘"
 DOWNLOAD_TEXT_URL = "https://t.me/rb1bots/8"
 
    # Custom Caption Under Button #
-CAPTION_BUTTON = "💸 Buy Premium Today 💸"
+CAPTION_BUTTON = "✘ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ᴛᴏᴅᴀʏ ✘"
 CAPTION_BUTTON_URL = "https://t.me/rb1official"
 
    # Auto Delete For Bot Sending Files #
