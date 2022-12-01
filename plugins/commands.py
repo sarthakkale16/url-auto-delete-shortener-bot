@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('✘ ᴜᴘᴅᴀᴛᴇs ✘', url='https://t.me/rb1bots')
             ],
             [
-                InlineKeyboardButton('✘ ᴘʀᴇᴍɪᴜᴍ✘', url=f"https://t.me/rb1official"),
+                InlineKeyboardButton('✘ ᴘʀᴇᴍɪᴜᴍ ✘', url=f"https://t.me/rb1official"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -96,7 +96,7 @@ async def start(client, message):
             InlineKeyboardButton('✘ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs ✘', url='https://t.me/rb1official'),
             InlineKeyboardButton('✘ ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs ✘', url='https://t.me/requestbox1official')
             ],[
-            InlineKeyboardButton('✘ ʜᴇʟᴘɴ✘ ✘', callback_data='help'),
+            InlineKeyboardButton('✘ ʜᴇʟᴘ ✘', callback_data='help'),
             InlineKeyboardButton('✘ ᴀʙᴏᴜᴛ ✘', callback_data='about')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -247,7 +247,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/c/GreyMattersBot') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('✘ ᴊᴏɪɴ ᴘʀᴇᴍɪᴜᴍ ✘', url='https://t.me/rb1official') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
