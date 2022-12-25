@@ -41,9 +41,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'greymatters_bots_discussion')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'requestbox1')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
-IMDB = is_enabled((environ.get('IMDB', "False")), True)
+IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "@rb1official {file_name} \nsɪᴢᴇ : {file_size} \n\n┏➪[ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇs](https://t.me/requestbox1official)</b> \n┠➤[ᴊᴏɪɴ ᴘʀᴇᴍɪᴜᴍ](https://t.me/rb1official)</b> \n┠〉〉〉[ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/know_sarthak16)</b> \n┠➤[ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs](https://t.me/rb1bots)</b> \n┖➪[ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ](https://t.me/requestbox1)</b>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "ɴᴀᴍᴇ: <code>{file_name}</code> \n\nᴊᴏɪɴ ɴᴏᴡ: [Movie Updates](https://t.me/rb1official)</b>")
